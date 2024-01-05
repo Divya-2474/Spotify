@@ -1,0 +1,158 @@
+@import url("./footer.css");
+@import url("block1.css");
+@import url("block2.css");
+@import url("block3.css");
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+#horizontal_nav{
+    height: 4em;
+    width: 100%;
+    margin-left: 14.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    top: 0%;
+    z-index: 111;
+}
+#horizontal_nav>ol{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    list-style: none;
+    fill: grey;
+}
+#horizontal_nav>ol>li{
+    text-align: center;
+    border: none;
+    background-color: black;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+}
+#list_item1{
+    margin-top: 1em;
+    padding-right: 1em;
+    border-right: 1px solid white;
+    height: 2em;
+    letter-spacing: .1em;
+}
+#list_item2{
+    margin-top: .5em;
+    margin-right: 1em;
+    text-align: center;
+}
+#list_item3{
+    margin-top: 1em;
+    text-align: center;
+    padding-top: .5em;
+    border: 1px solid white;
+    background-color: white;
+    color: black;  
+    height: 3em;
+    width: 7em;
+    border-radius: 2em;
+}
+#horizontal_nav>ul{
+    margin-right: 18%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+    color: rgb(163, 163, 163)!important;
+    font-weight: bold;
+}
+
+/* vertical nav */
+#vertical_nav{
+    width: 15em;
+    height: 52em;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+}
+.fwTMCeAaUoWDj9WcQbgy{
+    margin: 15% 10%;
+    color: white;
+    width: 9em;
+
+}
+.list1{
+    list-style: none;
+    color: white;
+    text-indent: 1em;
+}
+.list1>li{
+    display: flex;
+}
+.Svg-sc-ytk21e-0 {
+    fill: white;
+} 
+.list2{
+    list-style: none;
+}
+.list2>li{
+    display: flex;
+    color: white;
+   gap: 1em; 
+}
+#plus{
+    height: 26px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #b3b3b3;
+    
+}
+#plus>svg{
+    fill: black;
+    font-size: 25px;
+    margin-left: 6px;
+}
+#heart{
+    height: 26px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #b3b3b3;
+    background: linear-gradient(135deg,#450af5,#c4efd9);
+}
+#heart>svg{
+    fill: white;
+    font-size: 25px;
+    margin-left: 6px;
+}
+#nav_footer{
+    color: grey;
+    font-size: 12px;
+    margin-top: 10em;
+}
+#nav_footer>ul{
+    list-style: none;
+}
+#nav_footer>ul>li{
+    word-spacing: 1em;
+    line-height: 3em;
+}
+#earth_btn{
+    display: flex;
+    border: 1px solid #b3b3b3;
+    height: 2.5em;
+    width: 8em;
+    border-radius: 1.5em;
+    gap: .5em;
+    margin-left: 2em;
+
+}
+#earth_btn>svg{
+margin-left: 1em;
+margin-top: .5em;
+}
+#earth_btn>p{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+

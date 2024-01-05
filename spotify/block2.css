@@ -1,0 +1,28 @@
+#header2{
+   margin-top: -2em;
+   display: flex;
+   justify-content: space-between;
+}
+#heading2{
+   color: white;
+   font-weight: bold;
+   margin-left: 1em;
+}
+#showall{
+   color: gray;
+   font-weight: bold;
+   margin-right: 1em;
+}
+ #block2{
+    margin-top: 2em;
+     margin-left: 2em;
+     gap: 10em;
+ }
+  .row{
+     gap: 6em;
+     
+ }
+ .card-body>.card-title{
+ font-size: 16px;
+ font-weight: 640;
+ }

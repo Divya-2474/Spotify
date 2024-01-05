@@ -1,0 +1,88 @@
+main{
+    margin-left: 15em;
+    margin-top: 3.5%;
+    width: 100%;
+    height:100%;
+    background-color: #222;
+    /* background-image: url("./images/background\ -black.jpg"); */
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#header1{
+    display: flex;
+    justify-content: space-between;
+}
+#heading1{
+    color: white;
+    font-weight: bold;
+    margin-left: 1em;
+ }
+ #showall{
+    color: gray;
+    font-weight: bold;
+    margin-right: 1em;
+ }
+#block1{
+    margin-top: -2em;
+    margin-left: 2em;
+}
+ .row{
+    gap: 6em;
+    
+}
+.card-body>.card-title{
+font-size: 16px;
+font-weight: 640;
+}
+.card-body>.card-text{
+font-size: 13px;
+font-weight: 500;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+
+
+/* music play icon */
+.card:hover{
+    background-color: #222;
+}
+.card:hover .play-icon{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.play-icon{
+    position: absolute ;
+    top: 45% ;
+    right: 10%;
+    transform: translateY(10px);
+    transition: all 0.4s;
+    opacity: 0;
+}
+.play-icon:hover{
+    transform: scale(1);
+    cursor: auto;
+
+}
+.circle{
+ width: 3rem;
+ height: 3rem;  
+ background-color: rgb(50,233,50); 
+ border-radius: 50%;
+ transform:scale(0.95) ;
+ display: grid;
+ place-items: center;
+
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left:  10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid black;
+    transform: rotate(90deg);
+    margin-left: 0.2rem;
+}
